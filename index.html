@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css"/>
+    <link rel="stylesheet" href="./css/responsive.css" media="screen">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Jersey+10&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Teko:wght@300..700&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+    <!-- /GOOGLE FONTS -->
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- /Bootstrap Icons -->
+
+    <script src="./js/menu.js" defer></script>
+    <script src="./js/btn-menu-mob.js" defer></script>
+
+    <title>Portifólio | Diego Lima Dev</title>
+</head>
+<body>
+    <header id="header">
+        <div class="interface">
+            <section class="logo">
+                <img class="logo-branca" src="./images/logotipo.png" alt="Logo">
+                <img class="logo-preta" src="./images/logotipo_p.png" alt="Logo">
+            </section>
+
+            <section class="menu-desktop">
+                <nav>
+                    <ul>
+                        <li><a href="#">inicio</a></li>
+                        <li><a href="https://github.com/diegolimamb">git-hub</a></li>
+                        <li><a href="https://www.linkedin.com/in/diego-lima-9095582aa/">linkedin</a></li>
+                        <li><a href="https://wa.me/5585991332501?text=Olá,%20Diego%20vim%20pelo%20seu%20portifólio!">contato</a></li>                        
+                    </ul>
+                </nav>
+            </section>
+
+            <section class="btn-contato">
+                <a href="./DIEGO RODRIGUES DE LIMA - CURRICULUM DEV CORRETO.pdf">
+                    <button>Download CV</button>
+                </a>
+            </section>
+
+            <div class="btn-menu-mob" id="btn-menu-mob">
+                <div class="line-menumob-1"></div>
+                <div class="line-menumob-2"></div>
+                <div class="line-menumob-3"></div>
+            </div>
+
+            <section class="menu-mobile" id="menu-mobile">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">inicio</a></li>
+                        <li><a href="https://github.com/diegolimamb">git-hub</a></li>
+                        <li><a href="https://www.linkedin.com/in/diego-lima-9095582aa/">likedin</a></li>
+                        <li><a href="https://wa.me/5585991332501?text=Olá,%20Diego%20vim%20pelo%20seu%20portifólio!">contato</a></li>                        
+                    </ul>
+                </nav>
+            </section>
+                
+        </div>
+    </header>
+    
+    <section class="hero-site">
+        <div class="interface">
+            <div class="txt-hero">
+                <h1>Olá, eu sou o<span>Diego Lima</span></h1>
+                <p>Desenvolvedor
+                    <span>Front-End</span>
+                </p>
+                <a href="https://wa.me/5585991332501?text=Olá,%20Diego%20vim%20pelo%20seu%20portifólio!"><button>Entrar em contato</button></a>
+            </div>
+
+            <div class="img-hero">
+                <img src="./images/profile-pic.png" alt="">
+            </div>
+
+        </div>        
+    </section>
+
+    <section class="projetos">
+        <div class="interface">
+            <article class="itens-container">
+                <div class="txt-itens">
+                    <h3><span>Cardápio</span>digital<br>online</h3>
+                    <p>Cardápio online desenvolvido com React e Tailwind, permitindo que o usuário selecione produtos, ajuste as quantidades, remova itens do carrinho e finalize o pedido. Ao concluir, o pedido é enviado diretamente para o WhatsApp da empresa, garantindo praticidade e agilidade no atendimento.</p>
+                    <div class="btn-projetos">
+                        <a href="http://imperiodascarnesmenu.netlify.app"><button>Acessar Projeto</button></a>
+                        <a href="https://github.com/observer-inc/menu"><button>Git Hub</button></a>
+                    </div>
+                </div>
+                <div class="img-itens">
+                    <img src="./images/imperiodascarnes.png" alt="">
+                </div>
+            </article>
+
+            <article class="itens-container">
+                <div class="img-itens item-1">
+                    <img src="./images/bmldistribuidora.png" alt="">
+                </div>
+                <div class="txt-itens item-2">
+                    <h3><span>Landing</span> page<br>distribuidora</h3>
+                    <p>Landing page para uma distribuidora de alimentos, projetada para reunir todos os links úteis em um só lugar. Facilita o acesso a informações importantes, tudo organizado de forma prática e intuitiva para melhorar a experiência do usuário.</p>
+                    <div class="btn-projetos">
+                        <a href="http://bmldistribuidora.netlify.app"><button>Acessar Projeto</button></a>
+                        <a href="https://github.com/diegolimamb/bmldistribuidora"><button>Git Hub</button></a>
+                    </div>
+                </div>                
+            </article>
+            
+            <article class="itens-container">
+                <div class="txt-itens">
+                    <h3><span>Clone</span> site<br>Spotify</h3>
+                    <p>Desenvolvimento de um clone do site do Spotify utilizando HTML, CSS e JavaScript, recriando sua interface moderna e funcionalidades básicas. O HTML estrutura a página, enquanto o CSS aplica estilos responsivos e atraentes, semelhantes ao design original. O JavaScript adiciona interatividade, como navegação entre seções e simulação de um player de música. Este projeto é voltado para aprendizado e prática de desenvolvimento front-end.</p>
+                    <div class="btn-projetos">
+                        <a href="http://spotifyclonediegolimadev.netlify.app"><button>Acessar Projeto</button></a>
+                        <a href="https://github.com/diegolimamb/spotifyclone"><button>Git Hub</button></a>
+                    </div>
+                </div>
+                <div class="img-itens">
+                    <img src="./images/spotifyclone.png" alt="">
+                </div>
+            </article>
+        </div>        
+    </section>
+
+    <section class="contato">
+        <div class="interface">
+            <article class="txt-contato">
+                <h3>Minhas <span>habilidades</span></h3>
+                <p>E solicite o orçamento que cabe no seu bolso</p>
+            </article>
+
+            <article class="icons-contato">                
+                <a href="#">
+                    <button><i class="fa-brands fa-html5"></i> <p>HTML5</p></i></button>
+                </a>                
+                <a href="#">
+                    <button><i class="fa-brands fa-css3-alt"></i> <p>CSS 3</p></i></button>
+                </a>
+                <a href="#">
+                    <button><i class="fa-brands fa-js"></i> <p>JavaScript</p></i></button>
+                </a>
+                <a href="#">
+                    <button><i class="fa-brands fa-react"></i> <p>React</p></i></button>
+                </a>                
+            </article>
+        </div>
+    </section>
+
+    <section class="sobre-mim">
+        <div class="interface">
+            <h3>Sobre <span>mim</span></h3>
+            <p>Desenvolvedor Front-End com sólida experiência em React.js, HTML, CSS, JavaScript, Tailwind e Bootstrap. Apaixonado pela criação de interfaces modernas e funcionais. Possui experiência em projetos freelancers, incluindo o desenvolvimento de aplicações React para uma empresa de software voltada a clínicas. Formação prevista em 2025 em Análise e Desenvolvimento de Sistemas, com o objetivo de aprofundar conhecimentos no universo do desenvolvimento e evoluir para uma especialização Full-Stack. Motivado por desafios e em constante busca por aprendizado e inovação.</p>
+            <a href="https://github.com/diegolimamb" target="_blank">
+                <button>Meus projetos</button>
+            </a>
+        </div>
+
+        <div class="overlay"></div>
+    </section>
+
+    <section class="meus-contatos">
+        <div class="interface">
+            <div class="txt-funciona">
+                <h3>Meus <span>contatos</span></h3>
+            </div>
+
+            <div class="instrucoes">
+                <article class="instru-box">
+                    <div class="img-instru-box">
+                        <img src="./images/whatslogo.png" alt="">
+                    </div>
+                    <div class="text-intru-box">
+                        <h4>Você fala comigo<span> pelo WhatsApp</span></h4>
+                        <a href="https://wa.me/5585991332501?text=Olá,%20Diego%20vim%20pelo%20seu%20portifólio!"><p>Clique Aqui</p></a>
+                    </div>
+                </article>
+
+                <article class="instru-box">
+                    <div class="img-instru-box">
+                        <img src="./images/linkedinlogo.png" alt="">
+                    </div>
+                    <div class="text-intru-box">
+                        <h4>Você fala comigo <span>pelo linkedin</span></h4>
+                        <a href="https://www.linkedin.com/in/diego-lima-9095582aa/"><p>Clique Aqui</p></a>
+                    </div>
+                </article>
+
+                <article class="instru-box">
+                    <div class="img-instru-box">
+                        <img src="./images/email.png" alt="">
+                    </div>
+                    <div class="text-intru-box">
+                        <h4>Você fala comigo <span>por Email</span></h4>
+                        <a href="mailto:diegorodrigueslimamb@gmail.com"><p>Clique Aqui</p></a>
+                    </div>
+                </article>
+            </div>
+
+        </div>
+    </section>    
+
+    <footer>
+        <div class="interface">
+            <section class="top-footer">
+                <a href="https://wa.me/5585991332501?text=Olá,%20Diego%20vim%20pelo%20seu%20portifólio!" target="_blank"><button><i class="bi bi-whatsapp"></i></i></button></a>
+                <a href="https://github.com/diegolimamb" target="_blank"><button><i class="bi bi-github"></i></button></a>
+                <a href="https://www.linkedin.com/in/diego-lima-9095582aa/" target="_blank"><button><i class="bi bi-linkedin"></i></button></a>
+            </section>
+
+            <section class="middle-footer">
+                <!-- <a href="#">Suporte</a>
+                <a href="#">Informações</a>
+                <a href="#">Marketing</a> -->
+            </section>
+
+            <section class="bottom-footer">
+                <p>diegolimadev 2025 &copy; Todos os direitos reservados</p>
+            </section>
+        </div>
+    </footer>   
+</body>
+</html>

@@ -1,0 +1,144 @@
+
+@media screen and (max-width: 980px){
+    header .menu-desktop, header .btn-contato {
+        display: none;
+    }
+
+    header .btn-menu-mob{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 580px){
+    section.hero-site .interface {        
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .hero-site .txt-hero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+
+@media screen and (max-width: 878px){
+    /* Responsivo da Hero */
+    .hero-site .txt-hero h1 {
+        font-size: 2.6em;
+        line-height: 40px;
+    }
+    
+    .hero-site .txt-hero p {
+        font-size: 14px;
+        
+    }
+    
+    .hero-site .txt-hero p span {
+        display: inline;
+    }
+    
+    .hero-site button {
+        width: 200px;
+        height: 50px;
+        font-size: 18px;
+    }
+
+    /* Responsivo de projetos */
+    .projetos .itens-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .projetos .itens-container .btn-projetos button {
+        margin-bottom: 15px;
+    }
+    
+    .projetos .itens-container .img-itens img {
+        width: 100%;
+    }
+
+    .projetos .itens-container .txt-itens p {
+        margin-bottom: 20px;
+    
+    } 
+    
+    .projetos .itens-container .item-1 {
+        order: 1;
+    
+    }
+
+    .projetos .itens-container .item-2 {
+        order: 0;
+    
+    }
+
+    /* Estilo dos botões de contato */
+    .contato {
+        display: flex;
+        justify-content: center;
+    }
+
+    .txt-contato, .icons-contato {
+        display: block;
+        width: 100%;
+        text-align: center;        
+        
+    }
+
+    .contato .txt-contato h3 {
+        font-size: 2em;
+        line-height: 40px;
+    }
+    
+    .contato .icons-contato button {
+        width: 100%;
+    }
+
+    .contato .txt-contato p {
+        margin-bottom: 20px;
+    }
+
+    /* Estilo da sessão hotéis */
+    .sobre-mim h3 {
+        font-size: 2.3em;
+        line-height: 40px;
+    }
+
+    .sobre-mim p {
+        margin: 20px 0;
+        font-size: 16px;
+    }
+
+    /* Seção como funciona */
+    .txt-funciona, .instrucoes {
+        display: block;
+        width: 100%;
+    }
+
+    .meus-contatos .txt-funciona {
+        position: static;
+        text-align: center;
+    }
+
+    .meus-contatos .txt-funciona h3 {
+        font-size: 3em;
+        line-height: 50px;
+    }
+
+    .instrucoes .instru-box {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* Estilo footer */
+    footer .middle-footer a {
+        margin: 15px 0;
+        display: block;
+    }
+
+    footer .bottom-footer p {
+        font-size: 14px;
+    }
+}
